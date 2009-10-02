@@ -1,4 +1,4 @@
-#summary One-sentence summary of this page.
+#summary Project 4: MATLAB
 
 = Introduction =
 
@@ -6,7 +6,19 @@ Jason Tsay and William Ting's implementation of a subset of MATLAB's matrix oper
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== Testing ==
+
+Testing was primarily done through the console and CppUnit. 
+
+To test in the console, helper functions were made in order to neatly print matrices and vectors. 
+
+Our CppUnit test cases tests each function implemented separately. In many cases, there are multiple tests per function, usually to test the function using a square matrix and a rectangular matrix. 
+
+== Error Checking ==
+
+Our input error checking is fairly minimal as no explicit error checking was specified. In operations that require compatible matrix sizes, we simply use assertions.
+
+== Notes == 
+
+
+
