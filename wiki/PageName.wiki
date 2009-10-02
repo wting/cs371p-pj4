@@ -20,5 +20,7 @@ Our input error checking is fairly minimal as no explicit error checking was spe
 
 == Notes == 
 
-
+=== slice_col and slice_row ===
+Per MATLAB, we have shifted the index over by one.
+Ex: slice_col(m, 1) returns the first column in the matrix, not the second
 
