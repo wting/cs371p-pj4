@@ -10,7 +10,7 @@ Jason Tsay and William Ting's implementation of a subset of MATLAB's matrix oper
 
 Testing was primarily done through the console and CppUnit.
 
-To test in the console, helper functions were made in order to neatly print matrices and vectors. 
+To test in the console, helper functions were made in order to neatly print matrices and vectors. To see these tests, simply run the program without the TEST flag.
 
 Our CppUnit test cases tests each function implemented separately. In many cases, there are multiple tests per function, usually to test the function using a square matrix and a rectangular matrix. 
 
