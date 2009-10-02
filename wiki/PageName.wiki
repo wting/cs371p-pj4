@@ -8,7 +8,7 @@ Jason Tsay and William Ting's implementation of a subset of MATLAB's matrix oper
 
 == Testing ==
 
-Testing was primarily done through the console and CppUnit
+Testing was primarily done through the console and CppUnit.
 
 To test in the console, helper functions were made in order to neatly print matrices and vectors. 
 
