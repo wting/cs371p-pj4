@@ -1,0 +1,23 @@
+# Introduction #
+
+Jason Tsay and William Ting's implementation of a subset of MATLAB's matrix operations.
+
+# Details #
+
+## Testing ##
+
+Testing was primarily done through the console and CppUnit.
+
+To test in the console, helper functions were made in order to neatly print matrices and vectors. To see these tests, compile the program with the DEBUG\_OUTPUT flag.
+
+Our CppUnit test cases tests each function implemented separately. In many cases, there are multiple tests per function, usually to test the function using a square matrix and a rectangular matrix. As usual, to use these tests, compile the program with the TEST flag.
+
+## Error Checking ##
+
+Our input error checking is fairly minimal as no explicit error checking was specified. In operations that require compatible matrix sizes, we simply use assertions.
+
+## Notes ##
+
+### slice\_col and slice\_row ###
+Per MATLAB, we have shifted the index over by one.
+Ex: slice\_col(m, 1) returns the first column in the matrix, not the second
